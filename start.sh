@@ -1,4 +1,5 @@
-if [ -z "$UPSTREAM_REPO" ]; then
+if [ -z "$UPSTREAM_REPO" ]
+then
   echo "Cloning main Repository"
   git clone https://github.com/Pavan6264a/LazyPrincesslanja.git /LazyPrincess
 else
